@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Crimson Text', serif;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 25px;
+  background-color: slategray;
+  font-family: 'Neuton', serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 700px;
+  line-height: 0.9;
+  font-size: 20px;
+  font-size: 150%;
+}
+
+#bookLogo {
+  height: 75px;
+  margin-right: 25px;
+  box-shadow: 0 0 10px black;
+}
+
+.sub-header {
+  display: flex;
+  align-content: center;
+  background-color: whitesmoke;
+  padding: 0px 15px;
+  text-align: center;
+  justify-content: center;
+  font-family: 'PT Serif', serif;
+  font-size: 125%;
+}
+
+.sub-header-body {
+  display: flex;
+  align-content: center;
+  background-color: whitesmoke;
+  padding: 0px 15px;
+  text-align: center;
+  justify-content: center;
+  font-family: 'PT Serif', serif;
+  font-size: 105%;
+}
+
+.staff-picks {
+  background-color: whitesmoke;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#cart-img {
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  width: 375px;
+  justify-content: space-between;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-link {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px
+}
+
+.nav-link:hover {
+  color: greenyellow;
+  cursor: pointer;
+  font-weight: 250;
+  box-shadow: 0 0 15px black;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: calc(100vh - 175px); 
+  background-color: whitesmoke;
+  padding: 0px 25px;
+}
+
+.book-card {
+  height: 300px;
+  width: 175px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  border-radius: 10px;
+}
+
+.book-cover {
+  height: 450px;
+  width: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 0 20px black;
+}
+
+footer {
+  background-color: slategray;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+  padding: 0 30px;
+}
+
+#facebook {
+  height: 25px;
+  width: 25px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+
+#instagram {
+    height: 25px;
+  width: 25px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+
+#twitter {
+    height: 25px;
+  width: 25px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+
+#facebook:hover {
+  box-shadow: 0 0 15px white;
+}
+
+#instagram:hover {
+  box-shadow: 0 0 15px white;
+}
+
+#twitter:hover {
+  box-shadow: 0 0 15px white;
+}
